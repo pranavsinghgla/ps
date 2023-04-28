@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="booking.css"/>
+    <title>Document</title>
+    <style>
+        .ground{
+           background-image: url("https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&w=600" );
+           
+           
+           }
+
+    </style>
+</head>
+<body>
+  
+ <div class="topnav">
+    <div id="img">
+                
+<a href="https://www.co.in"><img src="2.jpg"width="100px" height="100px" margin <i class="fa fa-align-left" aria-hidden="true">
+</a></div>
+    
+
+  <a class="active" href="index.html">Home</a>
+  <a href="booking.html">booking</a>
+ 
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+
+<div class="ground">
+        <div id="book" >
+            
+            <form action="booking.php" method="post">
+               
+               <div class="pos"> <h1 >BOOKING</h1></div>
+               <div class="posi">
+               
+                <label for="name"><b>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                </b></label>
+                       <input id="name" name="name" placeholder="Full Name" required="" tabindex="1" type="text" pattern="[a-zA-Z].{1,}"><br><br>
+
+               
+               <label for="email">email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
+               </label>
+                       <input id="email" name="email" placeholder="Email" required="" type="email"><br><br>
+               
+               <label for="mobile">mobile:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label> 
+                           <input id="phone" name="mobile" placeholder="Number" required="" type="tel" pattern="[0-9]{10}"> <br><br>
+               
+               <div style="position:relative;height:80px;line-height: 30px;">
+               
+              <label >from&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <input type="date"  name="from" min="2000-01-02"><br><br>
+                          <label >last date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <input type="date"  name="last_date" min="2000-01-02"><br>
+                          
+                          
+               </div><br><br><br><Br>
+               Package&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   <select name="package" >
+                       <option value="manali">Manali</option>
+                       <option value="south">South</option>
+                       <option value="north">North</option>
+                   </select><br><br><br>
+                 Seater:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <select name="member" >
+                 <option value="single">single</option>
+                 <option value="couple">couple</option>
+                 <option value="family">family</option>
+             </select><br><br>
+               choice:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <select name="choice" >
+                 <option value="air">air</option>
+                 <option value="car">car</option>
+                 <option value="train">train</option>
+             </select>
+        
+                   <br>
+               <br><br><br>
+        <a href="payment.html"><input type="submit" name="submit" value="Book"/></a>
+        <input type="reset" name="reset" value="Reset" />
+        </div>
+        </form>
+            </div>
+   
+  
+    
+</div>
+
+            
+
+            
+                
+                 
+            
+            
+            
+
+    
+   
+</body>
+</html>

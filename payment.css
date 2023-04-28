@@ -1,0 +1,120 @@
+body{
+	margin:0px;
+	padding:0px;
+  background-image: url('17.jpeg');
+  background-color: yellow;
+	}
+#holder{
+	border:0px solid;
+	width:1365px;
+	height:auto;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+
+
+}
+#payment{
+	
+	text-align:center;
+	width:1400;
+	
+	margin-top:0px;
+	color:black;
+
+}
+
+.back{
+		background-image: url("a.jpg");
+		
+		width: auto;
+		height: 100%;
+		
+
+	}
+	.pay{
+		color:  white;
+		text-align: center;
+	}
+  
+  
+#a2{	
+	border:20px solid grey;
+
+	background-color:lightgrey;
+	text-align-last: center;
+  align-items: center;
+  height: auto;
+	margin-left: 350px;
+  margin-right: 350px;
+  
+	} 
+  input[type=text], select, textarea {
+    width: 30%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: 100; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    margin-left: 2px;
+    resize: vertical ;
+    color: black;
+  }
+  input[type=date],select,textarea{
+     padding: 12px 20px; 
+    border: 1px solid #ccc; 
+    size: 100;
+    border-radius: 4px; 
+    box-sizing: 60; 
+    margin-left: 2px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /
+    ;
+    color: black;
+    width: 30%; 
+  
+  }
+  
+  
+  
+  
+   input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    width: 30%; 
+    margin-bottom: 5px;
+    margin-left: 200px;
+    margin-left: 2px;
+    border-radius: 4px;
+    cursor: pointer;}
+    input[type=reset] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: none;
+      width: 30%; 
+      margin-bottom: 5px;
+      margin-left: 2px;
+      border-radius: 4px;
+      cursor: pointer;}
+      input[type=password],select,textarea{
+        padding: 12px 20px; 
+       border: 1px solid #ccc; 
+       size: 100;
+       border-radius: 4px; 
+       width: 30%; 
+       box-sizing: 60; 
+       margin-left: 2px;
+       margin-top: 6px; 
+       margin-bottom: 16px; 
+       resize: vertical /
+       ;
+       color: black;
